@@ -1,0 +1,95 @@
+📚 Online Bookstore Management and Sales Analysis using SQL
+📝 Project Overview
+This project demonstrates how SQL can be used to manage and analyze data for an online bookstore. It involves creating and populating relational database tables for books, customers, and orders, followed by executing a series of queries to derive meaningful business insights from the data.
+
+🧱 Database Structure
+The project uses a PostgreSQL database named OnlineBookstore, containing the following tables:
+
+Books: Stores details of books such as title, author, genre, published year, price, and stock.
+
+Customers: Stores customer information including name, email, phone, and location.
+
+Orders: Tracks purchases made by customers, including quantity, total amount, and order date.
+
+📂 Data Import
+Data is imported from CSV files using the COPY command:
+
+Books.csv
+
+Customers.csv
+
+Orders.csv
+
+Each CSV file corresponds to a table and is loaded with appropriate data types and constraints.
+
+🔍 SQL Queries Performed
+📌 Basic Queries
+Retrieve all books in a specific genre (e.g., Fiction).
+
+List books published after a certain year.
+
+Filter customers by country (e.g., Canada).
+
+Fetch orders placed in a specific month (e.g., November 2023).
+
+Calculate total available stock of all books.
+
+Identify the most expensive book.
+
+List orders with quantity greater than 1.
+
+Retrieve orders with total amount exceeding $20.
+
+List all available book genres.
+
+Find the book with the lowest stock.
+
+Calculate total revenue from all orders.
+
+📈 Advanced Analytical Queries
+Total number of books sold per genre.
+
+Average price of books in a specific genre (e.g., Fantasy).
+
+Customers who placed at least two orders.
+
+Most frequently ordered book.
+
+Top 3 most expensive books in the "Fantasy" genre.
+
+Total quantity of books sold per author.
+
+Cities of customers who spent more than $30.
+
+Customer who spent the most on orders.
+
+Remaining stock after fulfilling all orders.
+
+🎯 Goals Achieved
+Practice in relational database design and normalization.
+
+Hands-on experience with SQL DDL (Data Definition Language) and DML (Data Manipulation Language).
+
+Ability to perform data exploration, filtering, aggregation, and joins.
+
+Real-world business analysis using SQL.
+
+🛠 Tools Used
+PostgreSQL – Database engine
+
+psql / pgAdmin – Query interface
+
+CSV Files – Data source
+
+✅ How to Use
+Create the database and run the table creation scripts.
+
+Import the CSV files into their respective tables.
+
+Run the SQL queries to generate insights and reports.
+
+📌 Author
+Afnan Ali Iqbal Ali
+Nagpur, India
+Aspiring Data Analyst | SQL & Python Enthusiast
+
